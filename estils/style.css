@@ -1,0 +1,61 @@
+body {
+        background:  url(/media/fondo.svg);
+        height: 90vh;
+}
+
+aside{
+    background-color: rgb(106, 158, 119);
+    width: 20rem;
+    height: 90%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin: 2rem;
+}
+
+button {
+    width: 11rem;
+    height: 2rem;
+    border-radius: 7px;
+}
+#chiikawa-button{
+    color: rgb(78, 15, 46);
+    background-color: rgb(255, 154, 208);
+    border-color: rgb(255, 154, 208);
+
+}
+
+#hachiware-button{
+    color: rgb(30, 15, 78);
+    background-color: rgb(98,186,229);
+    border-color: rgb(98,186,229);;
+}
+
+#usagi-button{
+    color: rgb(125, 66, 13);
+    background-color: rgb(247,199,150);
+    border-color: rgb(247,199,150);
+}
+
+#momonga-button{
+    color: rgb(42, 15, 78);
+    background-color: rgb(215,152,255);
+    border-color: rgb(215,152,255);
+}
+
+#kurimanju-button{
+    color: rgb(15, 78, 20);
+    background-color: rgb(188, 255, 150);
+    border-color: rgb(188, 255, 150);
+}
+
+ul{
+    padding-inline-start: 0;;
+}
+
+#logo{
+    width:6rem;
+    height: 6rem;
+}
