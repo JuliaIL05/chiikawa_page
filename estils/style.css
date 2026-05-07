@@ -1,61 +1,112 @@
 body {
-        background:  url(/media/fondo.svg);
-        height: 90vh;
+    background: url(/media/fondo.svg);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
 }
 
-aside{
-    background-color: rgb(106, 158, 119);
+aside {
+    background-color: rgba(163, 192, 173, 1);
     width: 20rem;
-    height: 90%;
-    display: flex;
+    min-height: calc(100vh - 4rem);
+    display: flex !important;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 7px;
     margin: 2rem;
+    padding-top: 1rem;
+    gap: 10px;
 }
 
-button {
+#logo {
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    /* ← añade esto */
+    margin-bottom: 1rem;
+}
+
+#chiikawa-button,
+#hachiware-button,
+#hachiware-button,
+#usagi-button,
+#momonga-button,
+#kurimanju-button {
     width: 11rem;
     height: 2rem;
     border-radius: 7px;
 }
-#chiikawa-button{
+
+#chiikawa-button {
     color: rgb(78, 15, 46);
     background-color: rgb(255, 154, 208);
     border-color: rgb(255, 154, 208);
 
 }
 
-#hachiware-button{
+#hachiware-button {
     color: rgb(30, 15, 78);
-    background-color: rgb(98,186,229);
-    border-color: rgb(98,186,229);;
+    background-color: rgb(98, 186, 229);
+    border-color: rgb(98, 186, 229);
+    ;
 }
 
-#usagi-button{
+#usagi-button {
     color: rgb(125, 66, 13);
-    background-color: rgb(247,199,150);
-    border-color: rgb(247,199,150);
+    background-color: rgb(247, 199, 150);
+    border-color: rgb(247, 199, 150);
 }
 
-#momonga-button{
+#momonga-button {
     color: rgb(42, 15, 78);
-    background-color: rgb(215,152,255);
-    border-color: rgb(215,152,255);
+    background-color: rgb(215, 152, 255);
+    border-color: rgb(215, 152, 255);
 }
 
-#kurimanju-button{
+#kurimanju-button {
     color: rgb(15, 78, 20);
     background-color: rgb(188, 255, 150);
     border-color: rgb(188, 255, 150);
 }
 
-ul{
-    padding-inline-start: 0;;
+#logo {
+    width: 6rem;
+    height: 6rem;
 }
 
-#logo{
-    width:6rem;
-    height: 6rem;
+#carousel-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.carousel.right {
+        margin-top: 30%;
+    color: pink;
+    background-color: rgba(255, 76, 160, 0);
+    border-style: none;
+    width: 5rem;
+    height: 5rem;
+
+}
+.carousel.left {
+    margin-top: 30%;
+    color: pink;
+    background-color: rgb(248, 172, 255,0);
+    border-style: none;
+    width: 5rem;
+    height: 5rem;
+
+}
+.card {
+    display: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+img {
+    width: 70rem;
+    height: 50rem;
 }
